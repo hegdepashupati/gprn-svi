@@ -16,6 +16,6 @@ GPRN framework by Wilson, 2012 (https://arxiv.org/abs/1110.4411) is an efficient
 
 **2. Sparse Gaussian Process Regression Netwroks**
 
-Sparse GPRN framework is an extention to GPRN where each of the latent mixing functions are modeled to be sparse.  This makes the model more powerful and interpretable since each response can effectively use any subset of the latent dimensions by having exact zeros for the rest in the mixing functions. Notebook 'sgprn-jura.ipynb' illustrates variational inference for SGPRN model on the Jura dataset.
+Sparse GPRN framework is an extention to GPRN where each of the latent mixing functions is modeled to be sparse.  This makes the model more powerful and interpretable since each response can effectively use any subset of the latent dimensions by having exact zeros for the rest in the mixing functions. Notebook 'sgprn-jura.ipynb' illustrates variational inference for SGPRN model on the Jura dataset.
 
 <img src="plots/sgprn_fit.png" width="600" height="400" />
